@@ -7,6 +7,7 @@
 	<title>Internshala</title>
 	<link rel="stylesheet" href="styles.css">
 	<script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+	<script src="index.js"></script>
 </head>
 <body>
 	<div class="nav-1">
@@ -20,12 +21,63 @@
 		</div>
 	</div>
 	<hr/>
+
+	
+
+
+	<!-- <div class="slideshow-container fade"> -->
+
+		<!-- Full images with numbers and message Info -->
+		<!-- <div class="Containers">
+		  <img src="image1.jpg" style="width:100%">
+		</div>
+	  
+		<div class="Containers">
+		  <img src="image2.jpg" style="width:100%">
+		</div>
+	  
+		<div class="Containers">
+		  <img src="image3.jpg" style="width:100%">
+		</div> -->
+	  
+		<!-- Back and forward buttons -->
+		<!-- <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="forward" onclick="plusSlides(1)">&#10095;</a>
+	  </div>
+	  <br> -->
+<!-- 	  
+	  <div style="text-align:center">
+		<span class="dots" onclick="currentSlide(1)"></span>
+		<span class="dots" onclick="currentSlide(2)"></span>
+		<span class="dots" onclick="currentSlide(3)"></span>
+	  </div> -->
+
 	<div class="search">
 		<input type="text" class="search-bar" placeholder="What are you looking for?" />
 		<div class="search-logo"><span class="iconify" data-icon="eva:search-fill" style="color: white;"></span></div>
 	</div>
 	<br>
 	<br>
+	<div class="carousel-wrapper">
+		<span id="item-1"></span>
+		<span id="item-2"></span>
+		<span id="item-3"></span>
+		<div class="carousel-item item-1">
+		  <a class="arrow arrow-prev" href="#item-3"></a>
+		  <a class="arrow arrow-next" href="#item-2"></a>
+		</div>
+		
+		<div class="carousel-item item-2">
+		  <a class="arrow arrow-prev" href="#item-1"></a>
+		  <a class="arrow arrow-next" href="#item-3"></a>
+		</div>
+		
+		<div class="carousel-item item-3">
+		  <a class="arrow arrow-prev" href="#item-2"></a>
+		  <a class="arrow arrow-next" href="#item-1"></a>
+		</div>
+	  </div>
+	  <br/>
 	<div class="internships">
 		<div class="internships-left">
 			<h1>Internships</h1><br>
